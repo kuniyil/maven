@@ -11,7 +11,7 @@ public class HelloWorldService {
 	@GET
 	public Response getMsg() {
  
-		String output = "Hellooooo World !!!!" ;
+		String output = "Hellooooo World This is a Test Page !!!!" ;
  
 		return Response.status(200).entity(output).build();
  
